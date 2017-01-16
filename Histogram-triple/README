@@ -1,0 +1,12 @@
+This GNUPLOT script creates a single image containing three 
+histograms each using a single key with the same color scheme.
+
+These three histograms are based on the three .dat files:
+data_At.dat
+data_Bt.dat
+data_Ct.dat
+
+To Execute:
+
+$ gnuplot
+gnuplot> load 'hist3.gnu'
